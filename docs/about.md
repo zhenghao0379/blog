@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# 关于
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## 关于作者
 
-## Commands
+松阳，一个数据小学生
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+tinydata@qq.com
 
-## Project layout
+## 鸣谢
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+居宠老师
+
+## 

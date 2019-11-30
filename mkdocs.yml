@@ -1,5 +1,14 @@
-site_name: My Docs
+site_name: pyetl_demo
+
 nav:
-    - Home: index.md
-    - About: about.md
+  - 前言: 00 index.md
+  - 安装部署: 01 安装部署.md
+  - demo: 02 demo.md
+  - 数据处理: 03 数据处理.md
+  - 执行调度: 04 执行调度.md
+  - 公共函数: 公共函数.md
+  - 注意事项: 注意事项.md
+  - 版本管理: 版本管理.md
+  - 关于作者: about.md
+
 theme: readthedocs
