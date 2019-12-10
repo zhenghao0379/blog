@@ -30,3 +30,6 @@
 - 使用Python和其丰富的工具包（numpy\pandas ...）进行数据处理，更加高效灵活。
 - Azkaban调度管理，拥有开源、依赖管理、日志、可视化等优点。
 - 后续使用更加灵活。
+
+## 联系作者
+E-mail：tinydata@qq.com
