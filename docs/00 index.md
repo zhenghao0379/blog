@@ -23,6 +23,7 @@
     help            # 帮助文档
     source          # 资源、公共函数等
 
-## demo test
+## 优势
 
-暂用 jupyter notebook 实现功能
+- 使用Python和其丰富的工具包（numpy\pandas ...）进行数据处理，更加高效灵活。
+- Azkaban调度管理，拥有开源、依赖管理、日志、可视化等优点
