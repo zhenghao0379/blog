@@ -1,7 +1,7 @@
 site_name: pyetl_demo
 
 nav:
-  - 前言: 00 index.md
+  - 前言: index.md
   - 安装部署: 01 安装部署.md
   - demo: 02 demo.md
   - 数据处理: 03 数据处理.md
