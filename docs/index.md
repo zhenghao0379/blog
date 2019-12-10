@@ -14,7 +14,7 @@
 - **使用**：
     - **报表**：FineReport 构建自动化报表
     - **BI**：Fine BI \ power BI \ Tableau 构建BI
-    - **AI**:.ipynb 专题问题解决
+    - **AI**：.ipynb 专题问题解决
 
 ## 目录说明
 
@@ -23,7 +23,7 @@
     config          # 配置文件
     data            # 数据源
     help            # 帮助文档
-    pacaage         # 自定义工具包，全局变量、公共函数、sql链接等
+    package         # 自定义工具包，全局变量、公共函数、sql链接等
 
 ## 优势
 
