@@ -64,11 +64,17 @@ mysql_close(conn, engine)
 
 ### FineReport
 自动构造日报、周报、月报
-![finereport](../pic/fr_demo1.png)
-<https://raw.githubusercontent.com/zhenghao0379/blog/master/pic/fr_demo1.png>
+
+示例：
+
+构造
+![fr_make](https://help.finereport.com/uploads/20190828/1566975211602071.png)
+展示
+![finereport](https://help.finereport.com/uploads/20190827/1566874162942250.png)
 
 
 ### PowerBI or Tableau
 由于已经建立完善的数据仓库，可以高效快速的构建BI
-![tableau](../pic/tableau_demo1.png)
-<https://raw.githubusercontent.com/zhenghao0379/blog/master/pic/tableau_demo1.png>
+
+示例：
+![tableau](https://cdns.tblsft.com/sites/default/files/branded-header/getting_started_with_tableau_server_and_tableau_online_0.png)
