@@ -20,6 +20,8 @@ Sakila 是Mysql的样例数据库，音响的电影租赁数据。
 ## 演示
 以 构建 film 的维表为例
 ### Python
+数据处理阶段，包括：数据清洗、ETL、计算等
+
 文件位置：demo/code/dim_film.py
 ```
 # 定位到工作根目录
@@ -45,7 +47,7 @@ df_film_category = pd.read_sql("select * from film_category", engine).drop(['las
 df_category = pd.read_sql("select * from category", engine).drop(['last_update'],axis=1).rename(columns={"name":"category_name"})
 df_language = pd.read_sql("select * from language", engine).drop(['last_update'],axis=1).rename(columns={"name":"language_name"})
 
-# 
+# 数据处理
 df_data = df_film.merge(df_film_category, how="left", on="film_id")
 df_data_2 = df_data.merge(df_category, how="left", on="category_id")
 df_data_3 = df_data_2.merge(df_language, how="left", on="language_id")
@@ -58,12 +60,13 @@ mysql_upload(df_data_3,"dim_film",conn,engine,type="r")
 mysql_close(conn, engine)
 
 ```
-
+这里只是简单的ETL，数据处理阶段，根据业务的需求和场景可以更加复杂和丰富
 ### Azkaban
 略
 
+
 ### FineReport
-自动构造日报、周报、月报
+自动构造日报、周报、月报等
 
 示例：
 
