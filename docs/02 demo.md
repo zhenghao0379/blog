@@ -2,7 +2,7 @@
 
 Sakila 是Mysql的样例数据库，音响的电影租赁数据。
 
-所用文件在 demo 文件夹下
+文件位置：\demo
 
 ## Sakila Sample Database
 
@@ -12,17 +12,23 @@ Sakila 是Mysql的样例数据库，音响的电影租赁数据。
     - /demo/sakila-db 文件夹下
 
 ## 说明
+
 表格
+
 - 电影维表：dim_film
 - 地址维表：dim_address
 - 交易日志表：mid_rental
 
 ## 演示
+
 以 构建 film 的维表为例
+
 ### Python
+
 数据处理阶段，包括：数据清洗、ETL、计算等
 
 文件位置：demo/code/dim_film.py
+
 ```
 # 定位到工作根目录
 import sys
@@ -60,12 +66,15 @@ mysql_upload(df_data_3,"dim_film",conn,engine,type="r")
 mysql_close(conn, engine)
 
 ```
+
 这里只是简单的ETL，数据处理阶段，根据业务的需求和场景可以更加复杂和丰富
 ### Azkaban
+
 略
 
 
 ### FineReport
+
 自动构造日报、周报、月报等
 
 示例：
@@ -75,8 +84,8 @@ mysql_close(conn, engine)
 展示
 ![finereport](https://help.finereport.com/uploads/20190827/1566874162942250.png)
 
-
 ### PowerBI or Tableau
+
 由于已经建立完善的数据仓库，可以高效快速的构建BI
 
 示例：

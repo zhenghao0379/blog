@@ -20,16 +20,18 @@
 
     azkaban         # azkaban调度文件
     code            # python数据处理文件
-    config          # 配置文件
-    data            # 数据源
-    help            # 帮助文档
+    config          # 配置文件，数据库连接等
+    data            # 其他数据源，如excel、csv等临时性数据
+    help            # 帮助文档（即本文档，已单独迁移出）
     package         # 自定义工具包，全局变量、公共函数、sql链接等
 
 ## 优势
 
-- 使用Python和其丰富的工具包（numpy\pandas ...）进行数据处理，更加高效灵活。
+- Python支持多种数据库连接，Mysql\hive\mongo等。
+- 使用Python和其丰富的工具包（numpy\pandas等）进行数据处理，采用向量计算，更加高效灵活。
+- Python在数据挖掘、算法 和 AI 等的优势。
 - Azkaban调度管理，拥有开源、依赖管理、日志、可视化等优点。
-- 后续使用更加灵活。
 
 ## 联系作者
+
 E-mail：tinydata@qq.com
