@@ -25,6 +25,17 @@
     help            # 帮助文档（即本文档，已单独迁移出）
     package         # 自定义工具包，全局变量、公共函数、sql链接等
 
+## 数据仓库
+
+采用层次模型DATA VALUt：
+
+- Wiki：<https://en.wikipedia.org/wiki/Data_Vault_Modeling>
+- 层次结构大致如下：
+    - ods：原始层，原始数据原样保存；
+    - mid：中间层，按照框架样式并加工原始层；
+    - tag：标签层，记录单一对象的多个维度；
+    - rpt：应用层，数据结果最终展示；
+
 ## 优势
 
 - 灵活：
