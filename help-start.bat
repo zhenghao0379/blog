@@ -1,2 +1,2 @@
-cd D:\My work\Python\py_etl
+cd %cd%
 mkdocs serve
